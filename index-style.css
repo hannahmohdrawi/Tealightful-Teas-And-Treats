@@ -1,0 +1,127 @@
+body{
+    background-color:lightblue;
+}
+
+nav{
+    height: 100px;
+    box-shadow: 10px 10px hsla(0, 0%, 42%, 0.377);
+    display: flex;
+    background-color:rgb(14, 182, 238);
+    justify-content: space-between;
+    font-family:'Bebas Neue';
+    margin-top: auto;
+}
+
+
+h1{
+    font-size: 3em;
+    padding: 5px;
+    margin-top: auto;
+}
+
+nav ul li {
+    font-size: 30px;
+    color: black;
+    margin-right: auto;
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+
+nav ul li:hover{
+    cursor: pointer;
+    color: purple;
+    font-size: 40px;
+}
+
+.intro img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.main-container h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    text-decoration: underline;
+}
+
+.main-container ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+
+/* ----- Grid ----- */
+
+.main-container{
+    padding: 10em;
+    display: grid;
+    grid-template-rows: 400px 300px 300px;
+    grid-template-columns: 225px auto auto;
+    
+
+}
+
+.intro{
+    grid-row: 1;
+    grid-column: span 3;
+}
+
+.tea-names{
+    grid-row: 2;
+    grid-column: 1.5;
+    background-image: linear-gradient(hsl(0, 0%, 100%, 35%), hsl(351, 100%, 86%, 45%));
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.tea-prices{
+    grid-row: 2;
+    grid-column: 2.5;
+    background-image: linear-gradient(hsl(0, 0%, 100%, 35%), hsl(351, 100%, 86%, 45%));
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.cake-names{
+    grid-row: 3;
+    grid-column: 1.5;
+    background-image: linear-gradient(hsl(0, 0%, 100%, 35%), hsl(351, 100%, 86%, 45%));
+    width: 100%;
+    height: auto;
+}
+
+.cake-prices{
+    grid-row: 3;
+    grid-column: 2.5;
+    background-image: linear-gradient(hsl(0, 0%, 100%, 35%), hsl(351, 100%, 86%, 45%));
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* ----- End Menu Grid ----- */
+
+
+
+
+
+/*FONTS*/
+
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
